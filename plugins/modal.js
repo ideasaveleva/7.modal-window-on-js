@@ -27,7 +27,7 @@ function _createModalFooter(buttons = []) {
 }
 
 function _createModal(options) {
-    const DEFAULT_WIDTH = '100%'
+    const DEFAULT_WIDTH = '600px'
     const modal = document.createElement('div')
     modal.classList.add('vmodal')
     /* вставляем объект вырезанный из html */
